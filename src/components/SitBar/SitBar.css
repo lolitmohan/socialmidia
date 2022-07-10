@@ -1,0 +1,50 @@
+.sitBar{
+    flex: 3;
+    height: 100vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 60px;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(45, 45, 220);
+}
+
+.sitBarList{
+    margin: 0;
+    padding-top: 30px;
+    left: none;
+    background-attachment: fixed;
+}
+.sitBarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: .5rem;
+    font-size: 1.2rem;
+}
+.sitBarWarpper{
+    background-color: rgb(195, 195, 195);
+    padding-left: 1.5rem;
+}
+
+.btn-see{
+    background-color: #ffffff;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn{
+    padding-bottom: 15px;
+}
+

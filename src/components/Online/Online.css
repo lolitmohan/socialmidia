@@ -1,0 +1,32 @@
+.rightBarFriendList{
+    margin-left: 2rem;
+}
+
+.onlineProfileImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.online{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.onlineIcon{
+    width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+    position:absolute;
+    margin-left: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.rightBarFriendItem{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}

@@ -1,0 +1,76 @@
+.post{
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.postWrapper{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    -webkit-box-shadow: 0px -1px 13px 1px rgba(228, 228, 228);
+-moz-box-shadow: 0px -1px 13px 1px rgba(228, 228, 228);
+box-shadow: 0px -1px 13px 1px rgb(228, 228, 228);
+}
+
+.postTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.postProtfolioImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.postUserName{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.postImg{
+    width: 100%;
+    margin-top: 20px;
+    height: 60vh;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.likebg, .heart{
+    background-color: rgb(59, 59, 251);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart{
+    background-color: rgb(251, 2, 2);
+}
+
+.like{
+    color: rgb(255, 255, 255);
+}
+
+.postText, .postBottom{
+    margin: 1rem;
+}

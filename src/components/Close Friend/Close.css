@@ -1,0 +1,17 @@
+.sitBarFriendList{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 15px;
+}
+
+.sitBarFriendItem{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.sitBarFriendItem img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
